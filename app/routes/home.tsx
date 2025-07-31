@@ -5,7 +5,7 @@ import ResumeCard from "~/components/ResumeCard";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Resubot" },
+    { title: "Pareson" },
     { name: "description", content: "Taylor Your Career" },
   ];
 }
@@ -34,7 +34,7 @@ export default function Home() {
 
               })
             }
-            <p>Hello this is a test branch</p>
+
           </div>
         )
     }
