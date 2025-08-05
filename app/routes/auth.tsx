@@ -14,7 +14,7 @@ const Auth = () => {
 
     const { isLoading, auth } = usePuterStore();
     const location = useLocation();
-    const next :string = location.search.split('next')[1];
+    const next :string = location.search.split('next=')[1];
     const navigate = useNavigate();
 
     useEffect(() => {
