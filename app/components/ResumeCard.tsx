@@ -4,6 +4,7 @@ import ScoreCircle from "~/components/ScoreCircle";
 import {usePuterStore} from "~/lib/puter";
 import {useEffect, useState} from "react";
 
+
 const ResumeCard = ({resume:{id, companyName, jobTitle, feedback, imagePath}}: {resume: Resume}) => {
 
     const { fs } = usePuterStore();
