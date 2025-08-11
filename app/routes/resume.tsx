@@ -7,7 +7,7 @@ import Details from "~/components/Details";
 
 
 export const meta = () => ([
-    { title: 'Resumind | Review ' },
+    { title: 'Pareson | Review ' },
     { name: 'description', content: 'Detailed overview of your resume' },
 ])
 
