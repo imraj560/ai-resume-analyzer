@@ -64,7 +64,7 @@ export default function Home() {
 
       </div>
 
-      <div className="flex flex-row gap-80 mt-35 mb-35">
+      <div className="flex flex-col lg:gap-80 sm:gap-40 max-[640px]:gap-40 mt-35 mb-35 lg:flex-row">
 
         <div className="flex flex-col items-center justify-center">
           <MdScreenSearchDesktop size={60} />
