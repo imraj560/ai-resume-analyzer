@@ -1,87 +1,29 @@
-# Welcome to React Router!
+🚀 AI Resume Analyzer — Smart Resume Feedback with LLMs
 
-A modern, production-ready template for building full-stack React applications using React Router.
+In today’s competitive job market, having a standout resume is crucial. AI Resume Analyzer empowers job seekers by providing personalized, actionable feedback on their resumes using Large Language Models (LLMs) such as Claude Sonnet.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+This project was built to explore how LLMs can be effectively integrated into real-world web applications — and after learning from online mentorship and hands-on experimentation, this tool represents a major milestone in that journey.
 
-## Features
+✨ Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+📄 Resume Upload & Analysis – Upload your resume and receive instant AI-powered feedback.
 
-## Getting Started
+🎯 Job Description Matching – Compare resumes against job descriptions for better alignment.
 
-### Installation
+🤖 LLM-Powered Insights – Uses advanced models like Claude Sonnet to generate actionable suggestions.
 
-Install the dependencies:
+📊 Structured Feedback – Highlights strengths, weaknesses, missing keywords, and improvement areas.
 
-```bash
-npm install
-```
+⚡ Fast & Responsive UI – Built with modern frontend tools for a smooth user experience.
 
-### Development
+🛠 Tech Stack
 
-Start the development server with HMR:
+Frontend: Next.js / React
 
-```bash
-npm run dev
-```
+AI Models: Claude Sonnet (via LLM API)
 
-Your application will be available at `http://localhost:5173`.
+Backend: Node.js / API Routes
 
-## Building for Production
+File Handling: Resume upload & parsing
 
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+Styling: Tailwind CSS (or your chosen framework)
